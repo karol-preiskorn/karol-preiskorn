@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi there 👋 I've been programming Oracle DB systems for over 20 years mainly for telecoms inventory. Mainly working on back-end in PL/SQL, ABAP and some Node.js, Angular in fronted.
 
 <!--
 **karol-preiskorn/karol-preiskorn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
