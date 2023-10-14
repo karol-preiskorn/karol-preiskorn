@@ -2,7 +2,7 @@
 
 I've been programming Oracle DB systems for over 20 years for telecoms inventory. Mainly working on back-end in PL/SQL, ABAP and some Node.js, Angular in fronted.
 
-🔭 I’m currently working on ✨3d-project✨ inventory.
+🔭 I’m currently working on ✨3d-project✨ inventory. A simple solution that allows you to build a spatial and database representation of all types of warehouses and server rooms. 
 
 <!--
 **karol-preiskorn/karol-preiskorn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
