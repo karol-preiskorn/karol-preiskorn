@@ -1,6 +1,6 @@
 #### Hi there 👋
 
-I primarily work on back-end development using PL/SQL and ABAP. I also enjoy using Node.js for backend scripting and Angular for front-end development.
+I primarily work on back-end development using PL/SQL and some years in ABAP. I also enjoy using Node.js for backend scripting and Angular for front-end development.
 
 🔭 I’m currently working on an off-work ✨3D inventory project✨—a simple solution that allows you to build spatial and database representations of various types of warehouses and server rooms.
 
