@@ -1,6 +1,6 @@
 ### Hi there 👋 
 
-Mainly working on back-end in PL/SQL, ABAP :) I like Node.js, Angular in fronted.
+Mainly working on back-end in PL/SQL, ABAP :) I like Node.js as backend scripting and Angular in fronted.
 
 🔭 I’m currently on offwork ✨3d-project✨ inventory. A simple solution that allows you to build a spatial and database representation of all types of warehouses and server rooms. 
 
