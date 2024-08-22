@@ -1,10 +1,10 @@
-### Hi there 👋 
+#### Hi there 👋
 
-Mainly working on back-end in PL/SQL, ABAP :) I like Node.js as backend scripting and Angular in fronted.
+I primarily work on back-end development using PL/SQL and ABAP. I also enjoy using Node.js for backend scripting and Angular for front-end development.
 
-🔭 I’m currently on offwork ✨3d-project✨ inventory. A simple solution that allows you to build a spatial and database representation of all types of warehouses and server rooms. 
+🔭 I’m currently working on an off-work ✨3D inventory project✨—a simple solution that allows you to build spatial and database representations of various types of warehouses and server rooms.
 
-🌱 I’m currently learning promisses and reactive forms in Angular.
+🌱 I’m currently learning about promises and reactive forms in Angular.
 
 <!--
 **karol-preiskorn/karol-preiskorn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
