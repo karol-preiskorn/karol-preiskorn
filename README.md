@@ -2,7 +2,8 @@
 
 Mainly working on back-end in PL/SQL, ABAP :) I like Node.js, Angular in fronted.
 
-🔭 I’m currently on ✨3d-project✨ inventory. A simple solution that allows you to build a spatial and database representation of all types of warehouses and server rooms. 
+🔭 I’m currently on offwork ✨3d-project✨ inventory. A simple solution that allows you to build a spatial and database representation of all types of warehouses and server rooms. 
+🌱 I’m currently learning promisses....
 
 <!--
 **karol-preiskorn/karol-preiskorn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
