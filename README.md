@@ -1,6 +1,6 @@
 #### Hi there 👋
 
-I primarily work on back-end development using ✨PL/SQL✨ and some years in ✨ABAP✨. I also enjoy using 🔭Node.js for backend scripting and 🔭Angular for front-end development.
+I primarily work on back-end development using ✨PL/SQL✨ and some years in ABAP. I also enjoy using 🔭Node.js for backend scripting and 🔭Angular for front-end development.
 
 
 
