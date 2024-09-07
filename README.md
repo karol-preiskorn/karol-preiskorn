@@ -1,4 +1,6 @@
-#### Welcome coder! May your bugs be few, your coffee strong, and your 'undefined' always be 'not a problem'. Grab your keyboard and let’s turn some spaghetti into clean, gourmet code! 👋
+#### Hi coder 👋
+
+May your bugs be few, your coffee strong, and your `undefined` always be `not a problem`. Grab your keyboard and let’s turn some spaghetti into clean, gourmet code! 
 
 I primarily work on back-end development using ✨PL/SQL✨ and some years in ABAP. I also enjoy using 🔭Node.js for backend scripting and 🔭Angular for front-end development.
 
