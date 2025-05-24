@@ -1,6 +1,7 @@
 #### Hi coder 👋
 ```
-May your bugs be rare, your coffee robust, and your undefined always intentional. Grab your keyboard—let’s refactor that spaghetti into elegant, gourmet code!
+May your bugs be rare, your coffee robust, and your undefined always intentional.
+Grab your keyboard—let’s refactor that spaghetti into elegant, gourmet code!
 ```
 I primarily work on back-end development using ✨PL/SQL✨ and some years in ABAP. I also enjoy using 🔭Node.js for backend scripting and 🔭Angular for front-end development.
 
