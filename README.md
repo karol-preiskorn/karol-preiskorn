@@ -23,12 +23,6 @@ Frontend Angular application for the 3d-inventory project, providing a rich UI f
 ### [3d-inventory-oracle-api](https://github.com/karol-preiskorn/3d-inventory-oracle-api)
 REST API for 3d-inventory using Oracle as the backend, designed for enterprise environments.
 
-
-## 📈 GitHub Stats
-
-![Karol's GitHub stats](https://github-readme-stats.vercel.app/api?username=karol-preiskorn&show_icons=true&theme=monokai)
-
-
 ## 📫 How to reach me
  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/karol-preiskorn/)
