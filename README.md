@@ -3,7 +3,7 @@
 ## 🚀 About Me
 
 I'm a passionate software engineer and architect with a strong focus on backend development, API design, and scalable cloud solutions. I enjoy building robust, maintainable systems and sharing knowledge with the community.
-I primarily work on back-end development using ✨PL/SQL✨ and some years in ABAP. I also enjoy using 🔭Node.js for backend scripting and 🔭Angular for front-end development.
+I primarily work on back-end development using ✨PL/SQL✨ and some years in ABAP. I also enjoy using `Node.js` for backend scripting and `Angular` for front-end development.
 
 - 🏢 **Current Focus:** PL/SQL, Oracle DB, Node.js, TypeScript, MongoDB, REST APIs, Docker, and DevOps
 - 🛠️ **Tech Stack:** PL/SQL, ABAP, JavaScript/TypeScript, Node.js, Express, MongoDB, PostgreSQL, Docker, Kubernetes, GitHub Actions, Jest, and more
