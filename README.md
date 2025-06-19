@@ -28,7 +28,6 @@ REST API for 3d-inventory using Oracle as the backend, designed for enterprise e
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/karol-preiskorn/)
 [![GitHub](https://img.shields.io/github/followers/karol-preiskorn?label=GitHub&style=social)](https://github.com/karol-preiskorn)
 
----
 
 ## 💡 Philosophy
 
