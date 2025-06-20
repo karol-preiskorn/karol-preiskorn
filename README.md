@@ -22,18 +22,6 @@ I primarily work on back-end development using ✨PL/SQL✨ and some years in AB
 
 ## 💡 Philosophy
 
-```
-May your bugs be few and vanish with grace,
-Coffee strong, fueling your coding race.
-Let "undefined" be no accident's trace—
-But chosen with purpose, in its rightful place.
-
-So grab your keyboard, take your stand,
-Refactor boldly with steady hand.
-From tangled spaghetti, let brilliance unfold—
-Turn chaos to structure, and clunkers to gold!
-```
-
 - 🤔 Code is for humans, not just for computers.
 - 👯 Code is for the engineers on your team, who read, maintain, and build on top of your code.
 - ⚡ Code is for the users, whether it’s a kid on their phone, a developer calling your API, or yourself.
