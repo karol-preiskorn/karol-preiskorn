@@ -3,10 +3,10 @@
 I'm a passionate software engineer and architect with a strong focus on backend development, API design, and scalable cloud solutions. I enjoy building robust, maintainable systems and sharing knowledge with the community.
 I primarily work on back-end development using ✨PL/SQL✨ and some years in ABAP. I also enjoy using `Node.js` for backend scripting and `Angular` for front-end development.
 
-- 🏢 **Current Focus:** PL/SQL, Oracle DB, Node.js, TypeScript, MongoDB, REST APIs, Docker and DevOps
-- 🛠️ **Tech Stack:** PL/SQL, ABAP, JavaScript/TypeScript, Express, MongoDB, Docker, Jest and more
-- 📚 **Interests:** Clean code, automation, open source, cloud infrastructure, hyperleager
-- 🌍 **Location:** Poland
+- 🏢 **Current Focus:** PL/SQL, Oracle DB, Node.js, TypeScript, Angular, MongoDB, Jest, REST APIs, OAuth, Docker,
+- 🛠️ **Clouds**: GCP, AWS, Firebird
+- 📚 **Interests:** Databases, HyperLeager, AI
+- 🌍 **Locations:** Poland/Full Remote
 
 
 ## 🧑‍💻 Projects
