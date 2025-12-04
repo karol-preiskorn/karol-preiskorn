@@ -73,7 +73,7 @@ I had a lot of fun learning how to convert relational DB structures to correct c
 
 Relational data model is mapped to a NoSQL model in MongoDB.
 
-<img title="Logical model" src="src/assets/3d-inventory.png" style="filter: drop-shadow(0 0 1rem black); border-radius: 1%;" width="85%"/>
+<img title="Logical model" src="assets/3d-inventory.png" style="filter: drop-shadow(0 0 1rem black); border-radius: 1%;" width="85%"/>
 
 ## Application
 
