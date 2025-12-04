@@ -8,7 +8,6 @@ I primarily work on back-end development using ✨PL/SQL✨ and some years in AB
 - 📚 **Interests:** Databases, HyperLeager, AI
 - 🌍 **Locations:** Poland/Full Remote
 
-
 ## 🧑‍💻 Projects
 
 - [3d-inventory-api](https://github.com/karol-preiskorn/karol-preiskorn/tree/main/3d-inventory/api) - A robust MongoDB REST API for managing spatial and database representations of warehouses and server rooms. Features OpenAPI documentation, Docker support, security best practices, and a modern TypeScript codebase.
@@ -19,7 +18,6 @@ I primarily work on back-end development using ✨PL/SQL✨ and some years in AB
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/karol-preiskorn/)
 [![GitHub](https://img.shields.io/github/followers/karol-preiskorn?label=GitHub&style=social)](https://github.com/karol-preiskorn)
-
 
 ## 💡 Philosophy
 
