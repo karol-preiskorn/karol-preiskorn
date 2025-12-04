@@ -30,7 +30,7 @@
 
 Project creates ✨`3d inventory`✨—a solution that allows you to build a spatial and database representation of your warehouses or datacenters.
 
-<img title="3-d inventory the demo video" src="src/assets/img/2025-11-30_14-23.png" style="fborder-radius: 1%;filter: drop-shadow(0 0 1rem black); border-radius: 1%;" width="85%"/>]
+<img title="3-d inventory the demo video" src="assets/img/2025-11-30_14-23.png" style="fborder-radius: 1%;filter: drop-shadow(0 0 1rem black); border-radius: 1%;" width="85%"/>]
 
 ## Motivation
 
@@ -57,7 +57,7 @@ Project contain three repos:
 
 The `3d inventory` project leverages `Angular` for building the user interface and utilizes the `three.js` library to render interactive 3D graphics.
 
-[<img title="3-d inventory the demo video" src="src/assets/img/2025-06-20_12-18_1.png" style="fborder-radius: 1%;filter: drop-shadow(0 0 1rem black); border-radius: 1%;" width="85%"/>](https://youtu.be/rNOxpZ0ti1Q '3-d inventory the video')
+[<img title="3-d inventory the demo video" src="assets/img/2025-06-20_12-18_1.png" style="fborder-radius: 1%;filter: drop-shadow(0 0 1rem black); border-radius: 1%;" width="85%"/>](https://youtu.be/rNOxpZ0ti1Q '3-d inventory the video')
 
 ## Data Model
 
@@ -116,23 +116,23 @@ The 3D Inventory UI provides a comprehensive interface for managing inventory wi
 
 ### List devices
 
-<img title="List devices" src="src/assets/img/Screenshot%202023-07-14%20at%2008-48-50%203d%20inventory-watermark.png" style="border-radius: 1%;filter: drop-shadow(0 0 1rem black); border-radius: 1%;" width="80%"/>
+<img title="List devices" src="assets/img/Screenshot%202023-07-14%20at%2008-48-50%203d%20inventory-watermark.png" style="border-radius: 1%;filter: drop-shadow(0 0 1rem black); border-radius: 1%;" width="80%"/>
 
 ### Models
 
-<img title="Models" src="src/assets/img/Screenshot%202023-07-14%20at%2008-49-31%203d%20inventory-watermark.png" style="filter: drop-shadow(0 0 1rem black); border-radius: 1%;" width="80%"/>
+<img title="Models" src="assets/img/Screenshot%202023-07-14%20at%2008-49-31%203d%20inventory-watermark.png" style="filter: drop-shadow(0 0 1rem black); border-radius: 1%;" width="80%"/>
 
 ### Attributes
 
-<img title="Attributes" src="src/assets/img/Screenshot%202023-07-14%20at%2008-49-42%203d%20inventory-watermark.png" style="filter: drop-shadow(0 0 1rem black); border-radius: 1%;" width="80%"/>
+<img title="Attributes" src="assets/img/Screenshot%202023-07-14%20at%2008-49-42%203d%20inventory-watermark.png" style="filter: drop-shadow(0 0 1rem black); border-radius: 1%;" width="80%"/>
 
 ### Attribute Dictionary
 
-<img title="Attribute Dictionary" src="src/assets/img/Screenshot%202023-07-14%20at%2008-49-51%203d%20inventory-watermark.png" style="filter: drop-shadow(0 0 1rem black); border-radius: 1%;" width="80%"/>
+<img title="Attribute Dictionary" src="assets/img/Screenshot%202023-07-14%20at%2008-49-51%203d%20inventory-watermark.png" style="filter: drop-shadow(0 0 1rem black); border-radius: 1%;" width="80%"/>
 
 ### Connections
 
-<img title="Connections" src="src/assets/img/Screenshot%202023-07-14%20at%2008-50-00%203d%20inventory-watermark.png" style="filter: drop-shadow(0 0 1rem black); border-radius: 1%;" width="80%"/>
+<img title="Connections" src="assets/img/Screenshot%202023-07-14%20at%2008-50-00%203d%20inventory-watermark.png" style="filter: drop-shadow(0 0 1rem black); border-radius: 1%;" width="80%"/>
 
 ## Run
 
