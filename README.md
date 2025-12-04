@@ -11,9 +11,9 @@ I primarily work on back-end development using ✨PL/SQL✨ and some years in AB
 
 ## 🧑‍💻 Projects
 
-- [3d-inventory-api](https://github.com/karol-preiskorn/3d-inventory/api/README.md) - A robust MongoDB REST API for managing spatial and database representations of warehouses and server rooms. Features OpenAPI documentation, Docker support, security best practices, and a modern TypeScript codebase.
+- [3d-inventory-api](https://github.com/karol-preiskorn/karol-preiskorn/tree/main/3d-inventory/api) - A robust MongoDB REST API for managing spatial and database representations of warehouses and server rooms. Features OpenAPI documentation, Docker support, security best practices, and a modern TypeScript codebase.
 
-- [3d-inventory-ui](https://github.com/karol-preiskorn/3d-inventory/ui/README.md) - Frontend Angular application for the 3d-inventory project, providing a rich UI for managing devices, models, and connections.
+- [3d-inventory-ui](https://github.com/karol-preiskorn/karol-preiskorn/tree/main/3d-inventory/ui) - Frontend Angular application for the 3d-inventory project, providing a rich UI for managing devices, models, and connections.
 
 ## 📫 How to reach me
 
