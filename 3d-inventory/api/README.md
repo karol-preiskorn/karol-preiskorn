@@ -43,25 +43,11 @@
 The 3D Inventory Mongo API is a comprehensive backend solution for managing
 inventory systems with spatial visualization capabilities. Main goals include:
 
-- **Spatial Inventory Management**: Track inventory items with 3D positioning
-
-  and spatial relationships
-
-- **RESTful API Services**: Provide robust endpoints for inventory operations
-
-  (devices, models, connections, logs)
-
-- **User Management & Authentication**: Secure user authentication with
-
-  role-based access control (RBAC)
-
-- **MongoDB Integration**: Leverage NoSQL database for flexible inventory
-
-  data modeling
-
-- **Scalable Architecture**: Support enterprise-level inventory management
-
-  with proper security
+- **Spatial Inventory Management**: Track inventory items with 3D positioning and spatial relationships
+- **RESTful API Services**: Provide robust endpoints for inventory operations (devices, models, connections, logs)
+- **User Management & Authentication**: Secure user authentication with role-based access control (RBAC)
+- **MongoDB Integration**: Leverage NoSQL database for flexible inventory data modeling
+- **Scalable Architecture**: Support enterprise-level inventory management with proper security
 
 ## Architecture
 
@@ -87,47 +73,28 @@ persistence:
 **Key Components:**
 
 - **Controllers**: Handle HTTP requests and responses
-
 - **Services**: Business logic and database operations
-
 - **Middlewares**: Authentication, authorization, validation
-
 - **Models**: Data structures and validation schemas
-
 - **Routers**: API endpoint definitions
-
 - **Utils**: Configuration, logging, database connections
 
 ## Features
 
 ### 🔐 **Authentication & Authorization**
 
-- **JWT-based Authentication**: Secure token-based authentication with
-
-  24-hour expiry
-
-- **Role-Based Access Control (RBAC)**: Three-tier permission system
-
-  (ADMIN, USER, VIEWER)
-
+- **JWT-based Authentication**: Secure token-based authentication with 24-hour expiry
+- **Role-Based Access Control (RBAC)**: Three-tier permission system (ADMIN, USER, VIEWER)
 - **Password Security**: bcrypt hashing with 12 salt rounds
-
 - **Account Protection**: Failed login attempt tracking and account locking
-
 - **User Management APIs**: Complete CRUD operations for user accounts
 
 ### 📦 **Inventory Management**
 
-- **Device Management**: Track physical and virtual devices with spatial
-
-  positioning
-
+- **Device Management**: Track physical and virtual devices with spatialpositioning
 - **Model Management**: Define device types, specifications, and templates
-
 - **Connection Management**: Map relationships between inventory items
-
 - **Attribute System**: Flexible metadata and properties for inventory items
-
 - **Floor Management**: Spatial organization of inventory across building
 
   floors
@@ -135,31 +102,20 @@ persistence:
 ### 🛡️ **Security Features**
 
 - **API Rate Limiting**: Protect against abuse and DoS attacks
-
 - **Input Validation**: Comprehensive request validation using OpenAPI
-
 - **CORS Protection**: Configurable cross-origin resource sharing
-
 - **Helmet Security**: Security headers and XSS protection
-
 - **MongoDB Injection Protection**: Input sanitization against NoSQL injection
 
 ### 📊 **Monitoring & Logging**
 
 - **Structured Logging**: Comprehensive logging with Winston
-
 - **Health Checks**: API health monitoring endpoints
-
 - **Error Handling**: Centralized error management with proper HTTP status codes
-
 - **Request Tracking**: Detailed request/response logging for debugging
-
 - **Activity Audit Logs**: Complete audit trail for all CRUD operations with user context
-
 - **Login Event Tracking**: Detailed login audit logs including IP addresses, timestamps, and authentication outcomes
-
 - **Change Tracking**: Before/after value tracking for device updates showing exactly what changed
-
 - **User Activity Monitoring**: Track user actions across all system components with detailed metadata
 
 ## Data Model
@@ -273,154 +229,88 @@ The application uses MongoDB with the following key collections:
 The API provides comprehensive documentation through [Swagger/OpenAPI](https://swagger.io/) specification:
 
 - **Live Documentation**: Available at `https://your-api-url/doc` when server is running
-
 - **OpenAPI Spec**: Located at `./api.yaml` with complete endpoint definitions
-
-- **Authentication**: All protected endpoints require JWT Bearer token
-
-  authorization
-
-- **Role-Based Access**: Endpoints are protected based on user roles
-
-  (ViewerAuth, UserAuth, AdminAuth)
+- **Authentication**: All protected endpoints require JWT Bearer token authorization
+- **Role-Based Access**: Endpoints are protected based on user roles (ViewerAuth, UserAuth, AdminAuth)
 
 ### 🔐 **Authentication Endpoints**
 
-| Endpoint | Method | Description | Auth Required |
-
-| ------------------ | ------ | -------------------------------------------- | ------------- |
-
-| `/login` | POST | User authentication and JWT token generation | No |
-
-| `/login/protected` | GET | Verify JWT token validity | Bearer Token |
+| Endpoint           | Method | Description                                  | Auth Required |
+|--------------------|--------|----------------------------------------------|---------------|
+| `/login`           | POST   | User authentication and JWT token generation | No            |
+| `/login/protected` | GET    | Verify JWT token validity                    | Bearer Token  |
 
 ### 👥 **User Management Endpoints** (Admin/User Access)
 
-| Endpoint | Method | Description | Auth Required |
-
-| ----------------------- | ------ | --------------------------- | ------------- |
-
-| `/user-management` | GET | Get all users | Admin |
-
-| `/user-management` | POST | Create new user | Admin |
-
-| `/user-management/me` | GET | Get current user profile | User |
-
-| `/user-management/me` | PUT | Update current user profile | User |
-
-| `/user-management/{id}` | GET | Get user by ID | Admin/Own |
-
-| `/user-management/{id}` | PUT | Update user by ID | Admin/Own |
-
-| `/user-management/{id}` | DELETE | Delete user by ID | Admin |
+| Endpoint                | Method | Description                 | Auth Required |
+|-------------------------|--------|-----------------------------|---------------|
+| `/user-management`      | GET    | Get all users               | Admin         |
+| `/user-management`      | POST   | Create new user             | Admin         |
+| `/user-management/me`   | GET    | Get current user profile    | User          |
+| `/user-management/me`   | PUT    | Update current user profile | User          |
+| `/user-management/{id}` | GET    | Get user by ID              | Admin/Own     |
+| `/user-management/{id}` | PUT    | Update user by ID           | Admin/Own     |
+| `/user-management/{id}` | DELETE | Delete user by ID           | Admin         |
 
 ### 🔑 **Role Management Endpoints** (Admin Only)
 
-| Endpoint | Method | Description | Auth Required |
-
-| --------------------------- | ------ | ----------------------- | ------------- |
-
-| `/roles` | GET | Get all roles | Admin |
-
-| `/roles` | POST | Create new role | Admin |
-
-| `/roles/{name}` | GET | Get role by name | Admin |
-
-| `/roles/{name}` | PUT | Update role permissions | Admin |
-
-| `/roles/{name}` | DELETE | Delete role | Admin |
-
-| `/roles/{name}/permissions` | GET | Get role permissions | Admin |
-
-| `/roles/{name}/check` | GET | Check role permission | Admin |
+| Endpoint                    | Method | Description             | Auth Required |
+|-----------------------------|--------|-------------------------|---------------|
+| `/roles`                    | GET    | Get all roles           | Admin         |
+| `/roles`                    | POST   | Create new role         | Admin         |
+| `/roles/{name}`             | GET    | Get role by name        | Admin         |
+| `/roles/{name}`             | PUT    | Update role permissions | Admin         |
+| `/roles/{name}`             | DELETE | Delete role             | Admin         |
+| `/roles/{name}/permissions` | GET    | Get role permissions    | Admin         |
+| `/roles/{name}/check`       | GET    | Check role permission   | Admin         |
 
 ### 📦 **Inventory Management Endpoints**
 
-| Endpoint | Method | Description | Auth Required |
-
-| ---------------------------- | ------ | --------------------------------- | ------------- |
-
-| `/devices` | GET | Get all devices | Viewer+ |
-
-| `/devices` | POST | Create a new device | User+ |
-
-| `/devices/{id}` | GET | Get device by ID | Viewer+ |
-
-| `/devices/{id}` | PUT | Update device by ID | User+ |
-
-| `/devices/{id}` | DELETE | Delete device by ID | Admin |
-
-| `/models` | GET | Get all models | Viewer+ |
-
-| `/models` | POST | Create a new model | User+ |
-
-| `/models/{id}` | GET | Get model by ID | Viewer+ |
-
-| `/models/{id}` | PUT | Update model by ID | User+ |
-
-| `/models/{id}` | DELETE | Delete model by ID | Admin |
-
-| `/connections` | GET | Get all connections | Viewer+ |
-
-| `/connections` | POST | Create a new connection | User+ |
-
-| `/connections/{id}` | GET | Get connection by ID | Viewer+ |
-
-| `/connections/{id}` | PUT | Update connection by ID | User+ |
-
-| `/connections/{id}` | DELETE | Delete connection by ID | Admin |
-
-| `/logs` | GET | Get all logs | Viewer+ |
-
-| `/logs/{id}` | GET | Get log by ID | Viewer+ |
-
-| `/logs/{id}` | DELETE | Delete log by ID | Admin |
-
-| `/logs/login/username/:username` | GET | Get login logs by username | User+ |
-
-| `/logs/login/user/:userId` | GET | Get login logs by user ID | User+ |
-
-| `/attributes` | GET | Get all attributes | Viewer+ |
-
-| `/attributes` | POST | Create a new attribute | User+ |
-
-| `/attributes/{id}` | GET | Get attribute by ID | Viewer+ |
-
-| `/attributes/{id}` | PUT | Update attribute by ID | User+ |
-
-| `/attributes/{id}` | DELETE | Delete attribute by ID | Admin |
-
-| `/attributesDictionary` | GET | Get all attribute dictionary | Viewer+ |
-
-| `/attributesDictionary` | POST | Create a new attribute dictionary | User+ |
-
-| `/attributesDictionary/{id}` | GET | Get attribute dictionary by ID | Viewer+ |
-
-| `/attributesDictionary/{id}` | PUT | Update attribute dictionary by ID | User+ |
-
-| `/attributesDictionary/{id}` | DELETE | Delete attribute dictionary by ID | Admin |
-
-| `/floors` | GET | Get all floors | Viewer+ |
-
-| `/floors` | POST | Create a new floor | User+ |
-
-| `/floors/{id}` | GET | Get floor by ID | Viewer+ |
-
-| `/floors/{id}` | PUT | Update floor by ID | User+ |
-
-| `/floors/{id}` | DELETE | Delete floor by ID | Admin |
+| Endpoint                         | Method | Description                       | Auth Required |
+|----------------------------------|--------|-----------------------------------|---------------|
+| `/devices`                       | GET    | Get all devices                   | Viewer+       |
+| `/devices`                       | POST   | Create a new device               | User+         |
+| `/devices/{id}`                  | GET    | Get device by ID                  | Viewer+       |
+| `/devices/{id}`                  | PUT    | Update device by ID               | User+         |
+| `/devices/{id}`                  | DELETE | Delete device by ID               | Admin         |
+| `/models`                        | GET    | Get all models                    | Viewer+       |
+| `/models`                        | POST   | Create a new model                | User+         |
+| `/models/{id}`                   | GET    | Get model by ID                   | Viewer+       |
+| `/models/{id}`                   | PUT    | Update model by ID                | User+         |
+| `/models/{id}`                   | DELETE | Delete model by ID                | Admin         |
+| `/connections`                   | GET    | Get all connections               | Viewer+       |
+| `/connections`                   | POST   | Create a new connection           | User+         |
+| `/connections/{id}`              | GET    | Get connection by ID              | Viewer+       |
+| `/connections/{id}`              | PUT    | Update connection by ID           | User+         |
+| `/connections/{id}`              | DELETE | Delete connection by ID           | Admin         |
+| `/logs`                          | GET    | Get all logs                      | Viewer+       |
+| `/logs/{id}`                     | GET    | Get log by ID                     | Viewer+       |
+| `/logs/{id}`                     | DELETE | Delete log by ID                  | Admin         |
+| `/logs/login/username/:username` | GET    | Get login logs by username        | User+         |
+| `/logs/login/user/:userId`       | GET    | Get login logs by user ID         | User+         |
+| `/attributes`                    | GET    | Get all attributes                | Viewer+       |
+| `/attributes`                    | POST   | Create a new attribute            | User+         |
+| `/attributes/{id}`               | GET    | Get attribute by ID               | Viewer+       |
+| `/attributes/{id}`               | PUT    | Update attribute by ID            | User+         |
+| `/attributes/{id}`               | DELETE | Delete attribute by ID            | Admin         |
+| `/attributesDictionary`          | GET    | Get all attribute dictionary      | Viewer+       |
+| `/attributesDictionary`          | POST   | Create a new attribute dictionary | User+         |
+| `/attributesDictionary/{id}`     | GET    | Get attribute dictionary by ID    | Viewer+       |
+| `/attributesDictionary/{id}`     | PUT    | Update attribute dictionary by ID | User+         |
+| `/attributesDictionary/{id}`     | DELETE | Delete attribute dictionary by ID | Admin         |
+| `/floors`                        | GET    | Get all floors                    | Viewer+       |
+| `/floors`                        | POST   | Create a new floor                | User+         |
+| `/floors/{id}`                   | GET    | Get floor by ID                   | Viewer+       |
+| `/floors/{id}`                   | PUT    | Update floor by ID                | User+         |
+| `/floors/{id}`                   | DELETE | Delete floor by ID                | Admin         |
 
 ### 🔧 **System Endpoints**
 
-| Endpoint | Method | Description | Auth Required |
-
-| --------- | ------ | ------------------------ | ------------- |
-
-| `/health` | GET | API health check | No |
-
-| `/doc` | GET | Swagger UI documentation | No |
-
-| `/readme` | GET | Project documentation | No |
+| Endpoint  | Method | Description              | Auth Required |
+|-----------|--------|--------------------------|---------------|
+| `/health` | GET    | API health check         | No            |
+| `/doc`    | GET    | Swagger UI documentation | No            |
+| `/readme` | GET    | Project documentation    | No            |
 
 ## Getting Started
 
@@ -429,11 +319,8 @@ The API provides comprehensive documentation through [Swagger/OpenAPI](https://s
 Before you begin, ensure you have the following installed on your system:
 
 - **Node.js**: Version 22.0.0 or higher
-
 - **npm**: Latest version (comes with Node.js)
-
 - **MongoDB**: Atlas connection or local MongoDB instance
-
 - **Git**: For version control
 
 ### 🚀 **Installation**
@@ -523,54 +410,39 @@ Before you begin, ensure you have the following installed on your system:
 
 The system automatically creates default users on first startup:
 
-| Username | Password | Role | Description |
-
-| -------- | -------- | ------ | ------------------ |
-
-| admin | admin | ADMIN | Full system access |
-
-| user | user | USER | Standard user |
-
-| viewer | view | VIEWER | Read-only access |
+| Username | Password | Role   | Description        |
+|----------|----------|--------|--------------------|
+| admin    | admin    | ADMIN  | Full system access |
+| user     | user     | USER   | Standard user      |
+| viewer   | view     | VIEWER | Read-only access   |
 
 ### 📊 **Technology Stack**
 
 **Backend Framework:**
 
 - **Node.js**: Runtime environment (v22.0.0+)
-
 - **Express.js**: Web application framework (v5.1.0)
-
 - **TypeScript**: Type-safe JavaScript development
 
 **Database & Authentication:**
 
 - **MongoDB**: NoSQL database with Atlas cloud support
-
 - **JWT**: JSON Web Tokens for authentication
-
 - **bcrypt**: Password hashing and security
 
 **Development Tools:**
 
 - **Jest**: Testing framework with coverage reporting
-
 - **ESLint**: Code linting and formatting
-
 - **TypeDoc**: API documentation generation
-
 - **Husky**: Git hooks for code quality
-
 - **Docker**: Containerization support
 
 **Security & Monitoring:**
 
 - **Helmet**: Security headers and XSS protection
-
 - **Rate Limiting**: API request throttling
-
 - **CORS**: Cross-origin resource sharing
-
 - **Winston**: Structured logging system
 
 ### 🔄 **Development Workflow**
@@ -590,7 +462,6 @@ npm run clean      # Clean build artifacts
 **Git Hooks:**
 
 - Pre-commit: Automatic linting, formatting, and version bump
-
 - Husky integration for code quality enforcement
 
 ## 📚 Documentation
