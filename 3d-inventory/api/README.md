@@ -474,4 +474,10 @@ npm run clean      # Clean build artifacts
 
 ## License
 
-This project is licensed under the [Creative Commons Legal Code](https://github.com/karol-preiskorn/3d-inventory-mongo-api/blob/main/LICENSE).
+**Commercial Application - All Rights Reserved**
+
+Copyright © 2025 Karol Preiskorn. Wszelkie prawa zastrzeżone (All rights reserved).
+
+This is a proprietary commercial application. Unauthorized copying, modification, distribution, or use of this software, via any medium, is strictly prohibited without explicit written permission from the copyright owner.
+
+For licensing inquiries, please contact: Karol Preiskorn

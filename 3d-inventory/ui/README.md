@@ -1,10 +1,12 @@
 # 3d inventory
 
 1. [3d inventory](#3d-inventory)
-   1. [About](#about)
-   2. [Motivation](#motivation)
-   3. [Architecture](#architecture)
-   4. [Technology stack](#technology-stack)
+   1. [Project Overview and Purpose](#project-overview-and-purpose)
+   2. [Data Model Philosophy](#data-model-philosophy)
+   3. [Technology stack](#technology-stack)
+   4. [Activity Monitoring and Audit Capabilities](#activity-monitoring-and-audit-capabilities)
+      1. [Admin Dashboard](#admin-dashboard)
+      2. [Change Tracking Details](#change-tracking-details)
    5. [Demo video](#demo-video)
    6. [Data Model](#data-model)
       1. [Logical model](#logical-model)
@@ -17,41 +19,68 @@
       6. [Connections](#connections)
    8. [Run](#run)
    9. [Deploy](#deploy)
-      1. [Latest Features (October 12, 2025)](#latest-features-october-12-2025)
-      2. [Deployment Commands](#deployment-commands)
+      1. [Latest Features (December 7, 2025)](#latest-features-december-7-2025)
+      2. [Previous Features (October 12, 2025)](#previous-features-october-12-2025)
+      3. [Deployment Commands](#deployment-commands)
    10. [Containers](#containers)
-   11. [Contributing](#contributing)
-   12. [License](#license)
+       1. [Frontend Container (Angular UI)](#frontend-container-angular-ui)
+       2. [Backend Container (Node.js API)](#backend-container-nodejs-api)
+   11. [Deployment and Infrastructure](#deployment-and-infrastructure)
+       1. [Production Deployments](#production-deployments)
+       2. [Deployment Workflow](#deployment-workflow)
+       3. [Infrastructure Features](#infrastructure-features)
+       4. [Local Development vs Production](#local-development-vs-production)
+   12. [Contributing](#contributing)
+   13. [License](#license)
 
 [![wakatime](https://wakatime.com/badge/user/3bbeedbe-0c6a-4a01-b3cd-a85d319a03bf/project/018c62ce-6164-4200-bca9-be53af7f6d80.svg)](https://wakatime.com/badge/user/3bbeedbe-0c6a-4a01-b3cd-a85d319a03bf/project/018c62ce-6164-4200-bca9-be53af7f6d80) [![GitHub latest commit](https://badgen.net/github/last-commit/karol-preiskorn/3d-inventory-angular-ui)](https://GitHub.com/karol-preiskorn/3d-inventory-angular-ui/commit/) [![GitHub stars](https://img.shields.io/github/stars/karol-preiskorn/3d-inventory-angular-ui.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/karol-preiskorn/3d-inventory-angular-ui/stargazers/) [![GitHub issues](https://img.shields.io/github/issues/karol-preiskorn/3d-inventory-angular-ui.svg)](https://GitHub.com/karol-preiskorn/3d-inventory-angular-ui/issues/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) [![TypeScript](https://img.shields.io/badge/--3178C6?logo=typescript&logoColor=ffffff)](https://www.typescriptlang.org/) [![Npm](https://badgen.net/badge/icon/npm?icon=npm&label)](https://https://npmjs.com/) [![GitHub license](https://badgen.net/github/license/karol-preiskorn/3d-inventory-angular-ui)](https://github.com/karol-preiskorn/3d-inventory-angular-ui/blob/master/LICENSE)
 
-## About
+## Project Overview and Purpose
 
-Project creates ✨`3d inventory`✨—a solution that allows you to build a spatial and database representation of your warehouses or datacenters.
+The 3D Inventory Angular UI is a comprehensive frontend application designed to create spatial and database representations of warehouses and datacenters. This project serves as a practical sandbox for exploring database systems while building an efficient platform for graphical IT inventory management. The application leverages modern web technologies to provide interactive 3D visualization combined with robust data management capabilities.
 
 <img title="3-d inventory the demo video" src="assets/img/2025-11-30_14-23.png" style="fborder-radius: 1%;filter: drop-shadow(0 0 1rem black); border-radius: 1%;" width="85%"/>]
 
-## Motivation
+## Data Model Philosophy
 
-I am developing this project as a sandbox to explore database systems. It covers relevant topics and issues related to creating a simple and efficient platform for graphical representation of IT inventory.
-
-## Architecture
-
-Project contain three repos:
-
-- ⚓ https://github.com/karol-preiskorn/3d-inventory-angular-ui
-- ⚓ https://github.com/karol-preiskorn/3d-inventory-mongo-api
-- ⚓ https://github.com/karol-preiskorn/3d-inventory-oracle-api
+The data model employs a unique parametric, generic attribute class approach. Rather than rigid table structures, all attributes for Devices, Models, and Connections are stored flexibly in this model. The system uses an Attribute Dictionary to define parameter types, which then govern how values are stored and validated. This design provides significant flexibility while maintaining data integrity.
 
 ## Technology stack
 
-- `Angular` 19+ - as a Corp framework.
-- `Bootstrap` 5.3+ - logic for insert `UI` data
-- `tree.js` 163+ - as best graph framework.
+The application is built on Angular 20.3+ using the modern standalone component architecture, which eliminates the need for traditional NgModules and simplifies the application structure. For the user interface, it employs Bootstrap 5.3+ to ensure responsive design across different devices. The standout feature is the integration of three.js 163+, an advanced 3D graphics library that powers the interactive spatial visualization of inventory items.
+
+Security is enhanced through Google reCAPTCHA v3, which provides invisible, score-based bot protection without disrupting the user experience. The backend supports both MongoDB Atlas and Oracle databases, demonstrating flexibility in handling both NoSQL and relational data models. All communication happens through a well-documented REST API using Swagger/OpenAPI specifications. The entire stack is containerized using Docker, and testing is handled by Jest, ensuring comprehensive test coverage and code quality.
+
+- `Angular` 20.3+ - Modern standalone component architecture
+- `Bootstrap` 5.3+ - Responsive UI framework
+- `three.js` 163+ - Interactive 3D graphics library
+- `Google reCAPTCHA v3` - Bot protection and security (invisible, score-based)
 - `MongoAtlas`|`Oracle` - I want to try different solutions and data structures, including both relational and NoSQL data models using MongoAtlas and Oracle.
 - `REST` - prepared `API` documented and used in `Swagger`.
 - `Docker` as containers
+- `Jest` - Modern testing framework with comprehensive test coverage
+
+## Activity Monitoring and Audit Capabilities
+
+### Admin Dashboard
+
+Administrators have access to a powerful Activity Logs Dashboard that provides comprehensive audit trails for all system operations. The dashboard offers sophisticated filtering capabilities allowing searches by:
+
+- Component type (device, model, floor, user, connection, etc.)
+- Operation type (create, update, delete, clone)
+- Date range for temporal analysis
+- Username or object details for specific investigations
+
+### Change Tracking Details
+
+The system implements detailed before/after value tracking for all updates, providing granular visibility into what changed. This includes:
+
+- Field-level change detection tracking modifications to names, positions, attributes, and other properties
+- Visual before → after display making changes immediately apparent
+- Smart formatting that handles different data types appropriately (coordinates, arrays, objects)
+
+Every log entry includes user context, showing who performed each action, creating a complete accountability trail that's essential for compliance and troubleshooting.
 
 ## Demo video
 
@@ -95,6 +124,7 @@ The 3D Inventory UI provides a comprehensive interface for managing inventory wi
 - **User Profiles**: Personal profile management with login history
 - **Authentication**: Secure JWT-based authentication with password requirements
 - **Account Security**: Login attempt tracking and account protection
+- **Bot Protection**: Google reCAPTCHA v3 integration on login (invisible, score-based)
 
 #### 📊 **Activity Monitoring & Audit Logs**
 
@@ -144,18 +174,26 @@ npm run start
 ```
 
 Goto in browser [http://localhost:4200](http://localhost:4200)
-http://localhost:4200/
+<http://localhost:4200/>
 
 ## Deploy
 
 The application is deployed to Google Cloud Run:
 
-- **Production URL**: https://d-inventory-ui-wzwe3odv7q-ew.a.run.app
+- **Production URL**: <https://d-inventory-ui-wzwe3odv7q-ew.a.run.app>
 - **Current Revision**: d-inventory-ui-00110-q8s
-- **Backend API**: https://d-inventory-api-wzwe3odv7q-ew.a.run.app
+- **Backend API**: <https://d-inventory-api-wzwe3odv7q-ew.a.run.app>
 - **Backend Revision**: d-inventory-api-00108-pr2
 
-### Latest Features (October 12, 2025)
+### Latest Features (December 7, 2025)
+
+- ✅ **Google reCAPTCHA v3 Integration** - Invisible bot protection on login
+- ✅ **Enhanced Security** - Score-based reCAPTCHA with token validation
+- ✅ **RecaptchaService** - Comprehensive service with 11 passing tests
+- ✅ **Environment Configuration** - Configured for both development and production
+- ✅ **Documentation** - Complete setup guides and implementation docs
+
+### Previous Features (October 12, 2025)
 
 - ✅ Device change tracking with before/after values
 - ✅ Activity Logs dashboard for administrators
@@ -175,7 +213,139 @@ npm run build
 
 ## Containers
 
-Docker is used for containerization, and deployment to Google Cloud is planned.
+The 3D Inventory system uses Docker containerization for both development and production deployments. Each component (Angular UI and Node.js API) has its own optimized multi-stage Dockerfile.
+
+### Frontend Container (Angular UI)
+
+**Technology Stack:**
+
+- **Base Image**: `node:20-alpine3.20` (build stage)
+- **Runtime Image**: `nginx:1.27.3-alpine3.20` (production stage)
+- **Container Port**: 8080
+- **SSL Support**: Self-signed certificates for development (production uses external certificates)
+
+**Build Configuration:**
+
+```bash
+# Local Docker build
+npm run docker:build    # Builds image: 3d-inventory-ui
+npm run docker:run      # Runs container on port 4200:80
+
+# Multi-stage build process:
+# 1. Build stage: Compiles Angular app with production optimizations
+# 2. Production stage: Serves static files with nginx
+```
+
+**Optimizations:**
+
+- Multi-stage build reduces final image size
+- Aggressive caching for static assets (js, css, images) - 1 year expiration
+- No caching for HTML files to ensure updates are received immediately
+- Gzip compression enabled for all text-based resources
+- Security headers (CSP, X-Frame-Options, X-XSS-Protection)
+- Health check endpoint at `/health` for container orchestration
+
+### Backend Container (Node.js API)
+
+**Technology Stack:**
+
+- **Base Image**: `node:22-slim` (both build and runtime stages)
+- **Runtime User**: Non-root `node` user for security
+- **Container Port**: 8080 (configurable via PORT environment variable)
+- **Health Check**: `/health` endpoint with 30s intervals
+
+**Build Configuration:**
+
+```bash
+# Local Docker build and run
+npm run docker:run      # Builds and runs container on port 8080:8080
+
+# Multi-stage build process:
+# 1. Builder stage: Compiles TypeScript to JavaScript
+# 2. Runtime stage: Production dependencies only, runs compiled code
+```
+
+**Optimizations:**
+
+- Separate build and runtime stages minimize final image size
+- Production dependencies only in runtime image
+- Node.js memory optimization: `--max-old-space-size=512`
+- UV thread pool size: 8 for optimal MongoDB connections
+- Health checks for Cloud Run and Kubernetes compatibility
+
+## Deployment and Infrastructure
+
+The application is deployed to **Google Cloud Run**, providing automatic scaling, high availability, and managed infrastructure.
+
+### Production Deployments
+
+**Frontend (Angular UI):**
+
+- **URL**: <https://d-inventory-ui-wzwe3odv7q-ew.a.run.app>
+- **Current Revision**: d-inventory-ui-00110-q8s
+- **Container Registry**: Google Artifact Registry
+- **Deployment Script**: `npm run gcp:build` (see `scripts/build.sh`)
+
+**Backend (Node.js API):**
+
+- **URL**: <https://d-inventory-api-wzwe3odv7q-ew.a.run.app>
+- **Current Revision**: d-inventory-api-00108-pr2
+- **Container Registry**: Google Artifact Registry
+- **Deployment Script**: `npm run gcp:build` and `npm run gcp:deploy`
+
+### Deployment Workflow
+
+The deployment process follows these steps:
+
+1. **Build Phase**: Create optimized production build
+
+   ```bash
+   ng build --configuration=production  # Frontend
+   npm run build                        # Backend (TypeScript compilation)
+   ```
+
+2. **Containerization**: Build Docker image with multi-stage optimization
+
+   ```bash
+   docker build -t 3d-inventory-ui .    # Frontend
+   docker build -t 3d-inventory-api .   # Backend
+   ```
+
+3. **Push to Registry**: Upload container image to Google Artifact Registry
+
+   ```bash
+   gcloud builds submit --tag gcr.io/PROJECT_ID/IMAGE_NAME
+   ```
+
+4. **Deploy to Cloud Run**: Deploy new revision with zero-downtime
+
+   ```bash
+   gcloud run deploy SERVICE_NAME --image gcr.io/PROJECT_ID/IMAGE_NAME
+   ```
+
+### Infrastructure Features
+
+- **Auto-scaling**: Scales from 0 to multiple instances based on traffic
+- **Zero-downtime Deployments**: Gradual traffic migration to new revisions
+- **HTTPS by Default**: Automatic SSL/TLS certificates via Google-managed certificates
+- **Health Checks**: Container health monitoring with automatic restart on failures
+- **Environment Variables**: Secure configuration management via Cloud Run environment
+- **CI/CD Integration**: Automated builds and deployments via bash scripts
+
+### Local Development vs Production
+
+**Local Development:**
+
+- Frontend: `ng serve` on <http://localhost:4200>
+- Backend: `npm start` on <http://localhost:8080>
+- Database: MongoDB Atlas (same as production)
+
+**Production:**
+
+- Frontend: Nginx-served static files on Cloud Run
+- Backend: Node.js Express API on Cloud Run
+- Database: MongoDB Atlas with connection pooling
+- Authentication: JWT tokens with reCAPTCHA v3 validation
 
 ## Contributing
 
@@ -183,4 +353,10 @@ Pull requests are welcome. For major changes, please open an [issue](https://git
 
 ## License
 
-[Creative Commons Legal Code](https://github.com/karol-preiskorn/3d-inventory-angular-ui/LICENSE)
+**Commercial Application - All Rights Reserved**
+
+Copyright © 2025 Karol Preiskorn. Wszelkie prawa zastrzeżone (All rights reserved).
+
+This is a proprietary commercial application. Unauthorized copying, modification, distribution, or use of this software, via any medium, is strictly prohibited without explicit written permission from the copyright owner.
+
+For licensing inquiries, please contact: Karol Preiskorn
