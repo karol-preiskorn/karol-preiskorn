@@ -1,0 +1,23 @@
+[book]
+title = "3D Inventory Documentation"
+authors = ["karol-preiskorn"]
+language = "en"
+multilingual = false
+src = "src"
+
+[build]
+build-dir = "book"
+create-missing = true
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/karol-preiskorn/3d-inventory"
+edit-url-template = "https://github.com/karol-preiskorn/3d-inventory/edit/main/{path}"
+
+[output.html.fold]
+enable = true
+level = 0
+
+[output.html.search]
+enable = true
