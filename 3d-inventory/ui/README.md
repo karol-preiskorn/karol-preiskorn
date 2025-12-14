@@ -25,16 +25,12 @@
    10. [Containers](#containers)
        1. [Frontend Container (Angular UI)](#frontend-container-angular-ui)
        2. [Backend Container (Node.js API)](#backend-container-nodejs-api)
-   11. [Deployment and Infrastructure](#deployment-and-infrastructure)
-       1. [Production Deployments](#production-deployments)
-       2. [Deployment Workflow](#deployment-workflow)
        3. [Infrastructure Features](#infrastructure-features)
        4. [Local Development vs Production](#local-development-vs-production)
-   12. [Contributing](#contributing)
-   13. [License](#license)
+   11. [Contributing](#contributing)
+   12. [License](#license)
 
-[![wakatime](https://wakatime.com/badge/user/3bbeedbe-0c6a-4a01-b3cd-a85d319a03bf/project/018c62ce-6164-4200-bca9-be53af7f6d80.svg)](https://wakatime.com/badge/user/3bbeedbe-0c6a-4a01-b3cd-a85d319a03bf/project/018c62ce-6164-4200-bca9-be53af7f6d80) [![GitHub latest commit](https://badgen.net/github/last-commit/karol-preiskorn/3d-inventory-angular-ui)](https://GitHub.com/karol-preiskorn/3d-inventory-angular-ui/commit/) [![GitHub stars](https://img.shields.io/github/stars/karol-preiskorn/3d-inventory-angular-ui.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/karol-preiskorn/3d-inventory-angular-ui/stargazers/) [![GitHub issues](https://img.shields.io/github/issues/karol-preiskorn/3d-inventory-angular-ui.svg)](https://GitHub.com/karol-preiskorn/3d-inventory-angular-ui/issues/)
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) [![TypeScript](https://img.shields.io/badge/--3178C6?logo=typescript&logoColor=ffffff)](https://www.typescriptlang.org/) [![Npm](https://badgen.net/badge/icon/npm?icon=npm&label)](https://https://npmjs.com/) [![GitHub license](https://badgen.net/github/license/karol-preiskorn/3d-inventory-angular-ui)](https://github.com/karol-preiskorn/3d-inventory-angular-ui/blob/master/LICENSE)
+[![wakatime](https://wakatime.com/badge/user/3bbeedbe-0c6a-4a01-b3cd-a85d319a03bf/project/018c62ce-6164-4200-bca9-be53af7f6d80.svg)](https://wakatime.com/badge/user/3bbeedbe-0c6a-4a01-b3cd-a85d319a03bf/project/018c62ce-6164-4200-bca9-be53af7f6d80)
 
 ## Project Overview and Purpose
 
@@ -273,55 +269,6 @@ npm run docker:run      # Builds and runs container on port 8080:8080
 - UV thread pool size: 8 for optimal MongoDB connections
 - Health checks for Cloud Run and Kubernetes compatibility
 
-## Deployment and Infrastructure
-
-The application is deployed to **Google Cloud Run**, providing automatic scaling, high availability, and managed infrastructure.
-
-### Production Deployments
-
-**Frontend (Angular UI):**
-
-- **URL**: <https://d-inventory-ui-wzwe3odv7q-ew.a.run.app>
-- **Current Revision**: d-inventory-ui-00110-q8s
-- **Container Registry**: Google Artifact Registry
-- **Deployment Script**: `npm run gcp:build` (see `scripts/build.sh`)
-
-**Backend (Node.js API):**
-
-- **URL**: <https://d-inventory-api-wzwe3odv7q-ew.a.run.app>
-- **Current Revision**: d-inventory-api-00108-pr2
-- **Container Registry**: Google Artifact Registry
-- **Deployment Script**: `npm run gcp:build` and `npm run gcp:deploy`
-
-### Deployment Workflow
-
-The deployment process follows these steps:
-
-1. **Build Phase**: Create optimized production build
-
-   ```bash
-   ng build --configuration=production  # Frontend
-   npm run build                        # Backend (TypeScript compilation)
-   ```
-
-2. **Containerization**: Build Docker image with multi-stage optimization
-
-   ```bash
-   docker build -t 3d-inventory-ui .    # Frontend
-   docker build -t 3d-inventory-api .   # Backend
-   ```
-
-3. **Push to Registry**: Upload container image to Google Artifact Registry
-
-   ```bash
-   gcloud builds submit --tag gcr.io/PROJECT_ID/IMAGE_NAME
-   ```
-
-4. **Deploy to Cloud Run**: Deploy new revision with zero-downtime
-
-   ```bash
-   gcloud run deploy SERVICE_NAME --image gcr.io/PROJECT_ID/IMAGE_NAME
-   ```
 
 ### Infrastructure Features
 
