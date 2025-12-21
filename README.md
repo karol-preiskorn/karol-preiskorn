@@ -10,9 +10,16 @@ I primarily work on back-end development using ✨PL/SQL✨ and some years in AB
 
 ## 🧑‍💻 Projects
 
-- [3d-inventory-api](https://github.com/karol-preiskorn/karol-preiskorn/tree/main/3d-inventory/api) - A robust MongoDB REST API for managing spatial and database representations of warehouses and server rooms. Features OpenAPI documentation, Docker support, security best practices, and a modern TypeScript codebase.
+### 3D Inventory System
 
-- [3d-inventory-ui](https://github.com/karol-preiskorn/karol-preiskorn/tree/main/3d-inventory/ui) - Frontend Angular application for the 3d-inventory project, providing a rich UI for managing devices, models, and connections.
+A comprehensive inventory management platform with 3D spatial visualization.
+
+| Project | Description | Repository |
+|---------|-------------|------------|
+| **[3d-inventory-api](https://github.com/karol-preiskorn/3d-inventory-mongo-api)** | MongoDB REST API with JWT auth, RBAC, and OpenAPI documentation | [![GitHub](https://img.shields.io/github/stars/karol-preiskorn/3d-inventory-mongo-api?style=social)](https://github.com/karol-preiskorn/3d-inventory-mongo-api) |
+| **[3d-inventory-ui](https://github.com/karol-preiskorn/3d-inventory-angular-ui)** | Angular frontend with Three.js 3D visualization | [![GitHub](https://img.shields.io/github/stars/karol-preiskorn/3d-inventory-angular-ui?style=social)](https://github.com/karol-preiskorn/3d-inventory-angular-ui) |
+
+**Live Demo**: [3D Inventory UI](https://d-inventory-ui-wzwe3odv7q-ew.a.run.app) | [API Documentation](https://d-inventory-api-wzwe3odv7q-ew.a.run.app/doc)
 
 ## 📫 How to reach me
 
