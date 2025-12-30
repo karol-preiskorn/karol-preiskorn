@@ -16,14 +16,14 @@ A comprehensive inventory management platform with 3D spatial visualization.
 
 | Project | Description | Repository |
 |---------|-------------|------------|
-| **[3d-inventory-api](https://github.com/karol-preiskorn/3d-inventory-mongo-api)** | MongoDB REST API with JWT auth, RBAC, and OpenAPI documentation | [![GitHub](https://img.shields.io/github/stars/karol-preiskorn/3d-inventory-mongo-api?style=social)](https://github.com/karol-preiskorn/3d-inventory-mongo-api) |
-| **[3d-inventory-ui](https://github.com/karol-preiskorn/3d-inventory-angular-ui)** | Angular frontend with Three.js 3D visualization | [![GitHub](https://img.shields.io/github/stars/karol-preiskorn/3d-inventory-angular-ui?style=social)](https://github.com/karol-preiskorn/3d-inventory-angular-ui) |
+| **[3d-inventory-api](https://github.com/karol-preiskorn/karol-preiskorn/tree/main/3d-inventory/api)** | MongoDB REST API with JWT auth, RBAC, and OpenAPI documentation | [![GitHub](https://img.shields.io/github/stars/karol-preiskorn/3d-inventory-api?style=social)](https://github.com/karol-preiskorn/3d-inventory-api) |
+| **[3d-inventory-ui](https://github.com/karol-preiskorn/karol-preiskorn/tree/main/3d-inventory/ui)** | Angular frontend with Three.js 3D visualization | [![GitHub](https://img.shields.io/github/stars/karol-preiskorn/3d-inventory-ui?style=social)](https://github.com/karol-preiskorn/3d-inventory-ui) |
 
-**Live Demo**: [3D Inventory UI](https://d-inventory-ui-wzwe3odv7q-ew.a.run.app) | [API Documentation](https://d-inventory-api-wzwe3odv7q-ew.a.run.app/doc)
+**Live Demo**: [3D Inventory UI](https://3d-inventory.ultimasolution.pl) | [API Documentation](3d-inventory-api.ultimasolution.pl/doc)
 
 ## 📫 How to reach me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/karol-preiskorn/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/karol-preiskorn/) |
 [![GitHub](https://img.shields.io/github/followers/karol-preiskorn?label=GitHub&style=social)](https://github.com/karol-preiskorn)
 
 ## 💡 Philosophy
