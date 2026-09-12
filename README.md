@@ -28,8 +28,9 @@ A full-stack inventory management platform for managing devices, models, connect
 
 ## 📫 How to reach me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/karol-preiskorn/) |
-[![GitHub](https://img.shields.io/github/followers/karol-preiskorn?label=GitHub&style=social)](https://github.com/karol-preiskorn)
+For questions, collaboration, or project discussions, please contact me through LinkedIn:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/karol-preiskorn/)
 
 ## 💡 Philosophy
 
