@@ -15,14 +15,10 @@ My day-to-day work is centered on ✨PL/SQL✨ and Oracle, with additional exper
 
 A full-stack inventory management platform for managing devices, models, connections, and floor plans through a 3D interface.
 
-- **[3d-inventory-angular-ui](https://github.com/karol-preiskorn/3d-inventory-angular-ui)** - Angular frontend with Three.js visualization, Bootstrap, authentication, role-based access control, activity logs, and change history.
-- **[3d-inventory-mongo-api](https://github.com/karol-preiskorn/3d-inventory-mongo-api)** - TypeScript and Express REST API backed by MongoDB, with JWT authentication, RBAC, audit logs, rate limiting, and Swagger/OpenAPI documentation.
-
-**Live demo:** [3D Inventory UI](https://d-inventory-ui-wzwe3odv7q-ew.a.run.app) | **API docs:** [Swagger UI](https://d-inventory-api-wzwe3odv7q-ew.a.run.app/doc) | **Demo video:** [YouTube](https://youtu.be/rNOxpZ0ti1Q)
+- **[3d-inventory-ui](https://github.com/karol-preiskorn/3d-inventory-ui)** - 3D inventory management frontend. **Live demo:** [3D Inventory UI](https://d-inventory-ui-wzwe3odv7q-ew.a.run.app) | **API docs:** [Swagger UI](https://d-inventory-api-wzwe3odv7q-ew.a.run.app/doc) | **Demo video:** [YouTube](https://youtu.be/rNOxpZ0ti1Q)
 
 ### Other Projects
 
-- **[3d-inventory-ui](https://github.com/karol-preiskorn/3d-inventory-ui)** - 3D inventory management frontend.
 - **[forex](https://github.com/karol-preiskorn/forex)** - Foreign-exchange project and related experiments.
 - **[LoanREST](https://github.com/karol-preiskorn/LoanREST)** - REST-based loan management project.
 - **[java-blockchain](https://github.com/karol-preiskorn/java-blockchain)** - Java project exploring blockchain concepts.
