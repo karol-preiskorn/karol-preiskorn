@@ -1,25 +1,31 @@
 ## 🚀 About Me
 
-I'm a passionate software engineer and architect with a strong focus on backend development, API design, and scalable cloud solutions. I enjoy building robust, maintainable systems and sharing knowledge with the community.
-I primarily work on back-end development using ✨PL/SQL✨ and some years in ABAP. I also enjoy using `Node.js` for backend scripting and `Angular` for front-end development.
+I'm a software engineer and architect focused on backend development, API design, and scalable cloud solutions. I enjoy building maintainable systems, exploring new technologies, and sharing what I learn.
 
-- 🏢 **Current Focus:** PL/SQL, Oracle DB, Angular, MongoDB, Jest, REST APIs, OAuth, Docker, OpenShift.
-- 🛠️ **Clouds**: GCP
-- 📚 **Interests:** Databases, Inventory systems, hyperLeager, AI
-- 🌍 **Locations:** Poland/Full Remote
+My day-to-day work is centered on ✨PL/SQL✨ and Oracle, with additional experience in ABAP, `Node.js`, `Angular`, REST APIs, and cloud-native development.
+
+- 🏢 **Current Focus:** PL/SQL, Oracle DB, Angular, MongoDB, Jest, REST APIs, OAuth, and Docker
+- ☁️ **Cloud:** Google Cloud Platform
+- 📚 **Interests:** Databases, distributed systems, blockchain, and AI
+- 🌍 **Location:** Poland / Full Remote
 
 ## 🧑‍💻 Projects
 
 ### 3D Inventory System
 
-A comprehensive inventory management platform with 3D spatial visualization.
+A full-stack inventory management platform for managing devices, models, connections, and floor plans through a 3D interface.
 
-| Project | Description | Repository |
-|---------|-------------|------------|
-| **[3d-inventory-api](https://github.com/karol-preiskorn/karol-preiskorn/tree/main/3d-inventory/api)** | MongoDB REST API with JWT auth, RBAC, and OpenAPI documentation | [![GitHub](https://img.shields.io/github/stars/karol-preiskorn/3d-inventory-api?style=social)](https://github.com/karol-preiskorn/3d-inventory-api) |
-| **[3d-inventory-ui](https://github.com/karol-preiskorn/karol-preiskorn/tree/main/3d-inventory/ui)** | Angular frontend with Three.js 3D visualization | [![GitHub](https://img.shields.io/github/stars/karol-preiskorn/3d-inventory-ui?style=social)](https://github.com/karol-preiskorn/3d-inventory-ui) |
+- **[3d-inventory-angular-ui](https://github.com/karol-preiskorn/3d-inventory-angular-ui)** - Angular frontend with Three.js visualization, Bootstrap, authentication, role-based access control, activity logs, and change history.
+- **[3d-inventory-mongo-api](https://github.com/karol-preiskorn/3d-inventory-mongo-api)** - TypeScript and Express REST API backed by MongoDB, with JWT authentication, RBAC, audit logs, rate limiting, and Swagger/OpenAPI documentation.
 
-**Live Demo**: [3D Inventory UI](https://3d-inventory.ultimasolution.pl) | [API Documentation](3d-inventory-api.ultimasolution.pl/doc)
+**Live demo:** [3D Inventory UI](https://d-inventory-ui-wzwe3odv7q-ew.a.run.app) | **API docs:** [Swagger UI](https://d-inventory-api-wzwe3odv7q-ew.a.run.app/doc) | **Demo video:** [YouTube](https://youtu.be/rNOxpZ0ti1Q)
+
+### Other Projects
+
+- **[3d-inventory-ui](https://github.com/karol-preiskorn/3d-inventory-ui)** - 3D inventory management frontend.
+- **[forex](https://github.com/karol-preiskorn/forex)** - Foreign-exchange project and related experiments.
+- **[LoanREST](https://github.com/karol-preiskorn/LoanREST)** - REST-based loan management project.
+- **[java-blockchain](https://github.com/karol-preiskorn/java-blockchain)** - Java project exploring blockchain concepts.
 
 ## 📫 How to reach me
 
