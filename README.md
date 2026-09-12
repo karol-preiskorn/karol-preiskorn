@@ -1,13 +1,15 @@
 ## 🚀 About Me
 
-I'm a software engineer and architect focused on backend development, API design, and scalable cloud solutions. I enjoy building maintainable systems, exploring new technologies, and sharing what I learn.
+I'm an Assistant Vice President and Information Security professional at Citi, with more than 20 years of experience designing, building, and optimizing database and full-stack systems for the telecommunications and banking industries.
 
-My day-to-day work is centered on ✨PL/SQL✨ and Oracle, with additional experience in ABAP, `Node.js`, `Angular`, REST APIs, and cloud-native development.
+I specialize in Oracle Database 19c, PL/SQL, secure application development, and Agile project delivery. I build reliable, client-focused solutions using technologies such as Jenkins, GitHub, JIRA, GCP, and REST APIs. My previous work at IBM included Node.js APIs for Hyperledger Fabric blockchain projects and SAP ABAP HR applications.
 
-- 🏢 **Current Focus:** PL/SQL, Oracle DB, Angular, MongoDB, Jest, REST APIs, OAuth, and Docker
-- ☁️ **Cloud:** Google Cloud Platform
-- 📚 **Interests:** Databases, distributed systems, blockchain, and AI
-- 🌍 **Location:** Poland / Full Remote
+- 🏢 **Current Role:** Assistant Vice President / Senior Information Security Analyst at Citi
+- 🛠️ **Core Expertise:** Oracle 19c, PL/SQL, SQL, ETL, Oracle Forms, Node.js, Angular, Java, SAP ABAP, and REST APIs
+- 🔐 **Interests:** Application security, database engineering, blockchain, cloud development, and inventory systems
+- ☁️ **Cloud & Tools:** GCP, AWS, Jenkins, GitHub, GitLab, JIRA, MongoDB, and Neo4j
+- 🎓 **Education:** Master’s degree in Informatics from Warsaw University of Technology
+- 🌍 **Location:** Mazowieckie, Poland (prefer remote work)
 
 ## 🧑‍💻 Projects
 
