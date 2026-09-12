@@ -15,7 +15,10 @@ My day-to-day work is centered on ✨PL/SQL✨ and Oracle, with additional exper
 
 A full-stack inventory management platform for managing devices, models, connections, and floor plans through a 3D interface.
 
-- **[3d-inventory-ui](https://github.com/karol-preiskorn/3d-inventory-ui)** - 3D inventory management frontend. **Live demo:** [3D Inventory UI](https://d-inventory-ui-wzwe3odv7q-ew.a.run.app) | **API docs:** [Swagger UI](https://d-inventory-api-wzwe3odv7q-ew.a.run.app/doc) | **Demo video:** [YouTube](https://youtu.be/rNOxpZ0ti1Q)
+- **[3d-inventory-ui](https://github.com/karol-preiskorn/3d-inventory-ui)** - 3D inventory management frontend.
+  - **Live demo:** [3D Inventory UI](https://d-inventory-ui-wzwe3odv7q-ew.a.run.app)
+  - **API docs:** [Swagger UI](https://d-inventory-api-wzwe3odv7q-ew.a.run.app/doc)
+  - **Demo video:** [YouTube](https://youtu.be/rNOxpZ0ti1Q)
 
 ### Other Projects
 
