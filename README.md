@@ -21,6 +21,7 @@ A full-stack inventory management platform for managing devices, models, connect
   - **Live demo:** [3D Inventory UI](https://d-inventory-ui-wzwe3odv7q-ew.a.run.app)
   - **API docs:** [Swagger UI](https://d-inventory-api-wzwe3odv7q-ew.a.run.app/doc)
   - **Demo video:** [YouTube](https://youtu.be/rNOxpZ0ti1Q)
+  - [**Webpage**](https://ultimasolution.pl/data-center-inventory-software/) 
 
 ### Other Projects
 
