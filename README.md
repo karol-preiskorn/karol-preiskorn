@@ -42,4 +42,4 @@ A Java learning project that models how wallets, transactions, and blocks form a
 
 ## 📫 How to reach me
 
-For questions, collaboration, or project discussions, please contact me through LinkedIn: [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/karol-preiskorn/)
+For questions, collaboration, or project discussions, please contact me through: [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/karol-preiskorn/)
