@@ -18,17 +18,23 @@ I specialize in Oracle Database 19c, PL/SQL, secure application development, and
 
 A full-stack inventory management platform for managing devices, models, connections, and floor plans through a 3D interface.
 
-- **[3d-inventory-ui](https://github.com/karol-preiskorn/3d-inventory-ui)** - 3D inventory management frontend.
+- **[3d-inventory-ui](https://github.com/karol-preiskorn/3d-inventory-ui)** - 3D inventory management front-end.
   - **Live demo:** [3D Inventory UI](https://d-inventory-ui-wzwe3odv7q-ew.a.run.app)
   - **API docs:** [Swagger UI](https://d-inventory-api-wzwe3odv7q-ew.a.run.app/doc)
   - **Demo video:** [YouTube](https://youtu.be/rNOxpZ0ti1Q)
   - [**Webpage**](https://ultimasolution.pl/data-center-inventory-software/) 
 
-### Other Projects
+### **[Forex Dukascopy trading client](https://ultimasolution.pl/forex-dukascopy-trading-client/)** 
 
-- **[Forex Dukascopy trading client](https://ultimasolution.pl/forex-dukascopy-trading-client/)** - Python trading analysis and dashboard tooling for Dukascopy market data, featuring market data fetching and caching, technical analysis and signal generation, position and budget management, a Dash dashboard, and background monitoring with auto-trading helpers.
-- **[LoanREST](https://github.com/karol-preiskorn/LoanREST)** - REST-based loan management project.
-- **[java-blockchain](https://github.com/karol-preiskorn/java-blockchain)** - Java project exploring blockchain concepts.
+Python trading analysis and dashboard tooling for Dukascopy market data, featuring market data fetching and caching, technical analysis and signal generation, position and budget management, a Dash dashboard, and background monitoring with auto-trading helpers.
+
+### **[LoanREST](https://github.com/karol-preiskorn/LoanREST)** 
+
+REST-based loan management project.
+
+### **[java-blockchain](https://github.com/karol-preiskorn/java-blockchain)**
+
+Java project exploring blockchain concepts.
 
 ## 📫 How to reach me
 
