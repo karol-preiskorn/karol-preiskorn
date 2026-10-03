@@ -8,7 +8,7 @@ I specialize in Oracle Database 19c, PL/SQL, secure application development, and
 - 🛠️ **Core Expertise:** Oracle 19c, PL/SQL, SQL, ETL, Oracle Forms, Node.js, Angular, Java, SAP ABAP, and REST APIs
 - 🔐 **Interests:** Application security, database engineering, blockchain, cloud development, and inventory systems
 - ☁️ **Cloud & Tools:** K8, GCP, AWS, GitHub Actions
-- 🛠️ ** Databases**: Oracle 19g, Mongo, PostgreSQL 
+- 🛠️ **Databases**: Oracle 19g, Mongo, PostgreSQL 
 - 🎓 **Education:** Master’s degree in Informatics from Warsaw University of Technology
 - 🌍 **Location:** Mazowieckie, Poland (prefer remote work)
 
