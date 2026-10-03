@@ -31,6 +31,7 @@ Built a Python analysis and automation toolkit for exploring Dukascopy market da
 A Spring Boot REST API for issuing and extending fixed-term loans. I used SQLite and sample data to keep local development simple.
 
 - **Source:** [GitHub repository](https://github.com/karol-preiskorn/LoanREST)
+- **Details:** [Project overview](https://ultimasolution.pl/loan-rest-api/)
 
 ### Blockchain in Java
 
