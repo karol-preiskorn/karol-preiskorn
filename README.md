@@ -26,7 +26,7 @@ A full-stack inventory management platform for managing devices, models, connect
 
 ### Other Projects
 
-- **[forex](https://github.com/karol-preiskorn/forex)** - Foreign-exchange project and related experiments.
+- **[Forex Dukascopy trading client](https://ultimasolution.pl/forex-dukascopy-trading-client/)** - Python trading analysis and dashboard tooling for Dukascopy market data, featuring market data fetching and caching, technical analysis and signal generation, position and budget management, a Dash dashboard, and background monitoring with auto-trading helpers.
 - **[LoanREST](https://github.com/karol-preiskorn/LoanREST)** - REST-based loan management project.
 - **[java-blockchain](https://github.com/karol-preiskorn/java-blockchain)** - Java project exploring blockchain concepts.
 
