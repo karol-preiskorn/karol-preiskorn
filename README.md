@@ -8,7 +8,7 @@ I specialize in Oracle Database 19c, PL/SQL, secure application development, and
 - 🛠️ **Core Expertise:** Oracle 19c, PL/SQL, SQL, ETL, Oracle Forms, Node.js, Angular, Java, SAP ABAP, and REST APIs
 - 🔐 **Interests:** Application security, database engineering, blockchain, cloud development, and inventory systems
 - ☁️ **Cloud & Tools:** K8, GCP, AWS, GitHub Actions
-- 🛠️ **Databases**: Oracle 19g, Mongo, PostgreSQL 
+- 🛠️ **Databases**: Oracle 19g, Mongo, PostgreSQL
 - 🎓 **Education:** Master’s degree in Informatics from Warsaw University of Technology
 - 🌍 **Location:** Mazowieckie, Poland (prefer remote work)
 
@@ -16,31 +16,38 @@ I specialize in Oracle Database 19c, PL/SQL, secure application development, and
 
 ### 3D Inventory System
 
-A full-stack inventory management platform for managing devices, models, connections, and floor plans through a 3D interface.
+The is a comprehensive front-end application designed to create spatial and database representations of warehouses and data-centers.
 
-- **[3d-inventory-ui](https://github.com/karol-preiskorn/3d-inventory-ui)** - 3D inventory management front-end.
-  - **Live demo:** [3D Inventory UI](https://d-inventory-ui-wzwe3odv7q-ew.a.run.app)
-  - **API docs:** [Swagger UI](https://d-inventory-api-wzwe3odv7q-ew.a.run.app/doc)
-  - **Demo video:** [YouTube](https://youtu.be/rNOxpZ0ti1Q)
-  - [**Webpage**](https://ultimasolution.pl/data-center-inventory-software/) 
+This project serves as a practical sandbox for exploring database systems while building an efficient platform for graphical IT inventory management. The application leverages modern web technologies to provide interactive 3D visualization combined with robust data management capabilities.
 
-### **[Forex Dukascopy trading client](https://ultimasolution.pl/forex-dukascopy-trading-client/)** 
+- **Live demo:** [3D Inventory UI](https://d-inventory-ui-wzwe3odv7q-ew.a.run.app)
+- **API docs:** [Swagger UI](https://d-inventory-api-wzwe3odv7q-ew.a.run.app/doc)
+- **Demo video:** [YouTube](https://youtu.be/rNOxpZ0ti1Q)
+- [**Webpage**](https://ultimasolution.pl/data-center-inventory-software/)
+
+### Forex Dukascopy trading client
 
 Python trading analysis and dashboard tooling for Dukascopy market data, featuring market data fetching and caching, technical analysis and signal generation, position and budget management, a Dash dashboard, and background monitoring with auto-trading helpers.
 
-### **[LoanREST](https://github.com/karol-preiskorn/LoanREST)** 
+- **[Forex Dukascopy trading client webpage](https://ultimasolution.pl/forex-dukascopy-trading-client/)**
 
-REST-based loan management project.
+### Java loan REST API
 
-### **[java-blockchain](https://github.com/karol-preiskorn/java-blockchain)**
+A Spring Boot REST API for issuing and prolonging fixed-term loans. It uses SQLite and sample data for local development.
+
+- **[LoanREST webpage](https://github.com/karol-preiskorn/LoanREST)**
+
+### Blockchain in Java
+
+A focused Java implementation of a learning-oriented blockchain, covering blocks, proof of work, wallets, signed transactions, UTXO accounting, and chain validation.
+
+- **[blockchain in Java webpage](https://ultimasolution.pl/blockchain-in-java/)**
 
 Java project exploring blockchain concepts.
 
 ## 📫 How to reach me
 
-For questions, collaboration, or project discussions, please contact me through LinkedIn:
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/karol-preiskorn/)
+For questions, collaboration, or project discussions, please contact me through LinkedIn: [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/karol-preiskorn/)
 
 ## 💡 Philosophy
 
