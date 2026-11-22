@@ -1,6 +1,8 @@
 ## 🚀 About Me
 
-Information security and database professional with more than 20 years of experience designing, building, and optimizing systems across banking and telecommunications. At Citi, I work as an Assistant Vice President and Senior Information Security Analyst; earlier at IBM, I contributed to Node.js APIs for Hyperledger Fabric projects and SAP ABAP HR applications. My background combines Oracle Database 19c and PL/SQL expertise with secure application development and hands-on full-stack work, including 3D Inventory, a spatial inventory system for warehouses and data centers.
+Senior information security and Oracle specialist with more than 20 years of experience designing, building, and operating systems across banking and telecommunications. At Citi, I work as an Assistant Vice President and Senior Information Security Analyst. Earlier at IBM, I contributed to Node.js APIs for Hyperledger Fabric projects and SAP ABAP HR applications.
+
+I combine Oracle Database 19c and PL/SQL expertise with application security, full-stack development, cloud deployment, and operational reliability. I build systems that are secure, maintainable, and practical for real-world use.
 
 - 🏢 **Current Role:** Assistant Vice President / Senior Information Security Analyst at Citi
 - 🛠️ **Technical Skills:** Oracle Database 19c, PL/SQL, SQL, ETL, Oracle Forms; Python, Node.js, Angular, Three.js, Java, SAP ABAP, REST APIs; MongoDB, PostgreSQL; application security; GCP, AWS, Kubernetes; Jenkins, GitHub Actions, JIRA
@@ -11,7 +13,13 @@ Information security and database professional with more than 20 years of experi
 
 ### 3D Inventory System
 
-Built a full-stack inventory system for mapping warehouse and data-center assets in 3D. The Angular UI uses Three.js for spatial visualization, while a Node.js/Express API backed by MongoDB manages inventory data. A flexible attribute dictionary supports different device and model metadata; JWT-based role access and activity logs provide access control and change traceability.
+I designed and built a full-stack inventory system for mapping warehouse and data-center assets in 3D. The Angular UI uses Three.js for spatial visualization, while a Node.js/Express API backed by MongoDB manages inventory data. A flexible attribute dictionary supports different device and model metadata; JWT-based role access and activity logs provide access control and change traceability.
+
+**My role:** architecture, backend development, database modeling, frontend integration, security controls, audit logging, containerization, and Google Cloud deployment.
+
+**Implementation highlights:** REST and Swagger/OpenAPI documentation, role-based access control, before-and-after change tracking, automated tests, Docker images, health checks, security headers, and CI/CD workflows.
+
+![3D Inventory interface](./3d-inventory/ui/assets/img/2025-11-30_14-23.png)
 
 - **Source:** [Angular UI](https://github.com/karol-preiskorn/3d-inventory-angular-ui) · [MongoDB API](https://github.com/karol-preiskorn/3d-inventory-mongo-api)
 - **Live demo:** [3D Inventory UI](https://d-inventory-ui-wzwe3odv7q-ew.a.run.app)
